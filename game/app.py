@@ -65,7 +65,7 @@ class ExtendedFlaskMessageLaunch(FlaskMessageLaunch):
 
 
 def get_lti_config_path():
-    path = os.environ.get('LTI_CONFIG_PATH', os.path.join(app.root_path, '..', 'configs', 'game.json')
+    path = os.environ.get('LTI_CONFIG_PATH', os.path.join(app.root_path, '..', 'configs', 'game.json'))
     return path
 
 
